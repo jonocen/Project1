@@ -1,4 +1,3 @@
-#importing Libarys
 import keras
 import numpy as np
 import tensorflow as tf 
@@ -31,6 +30,7 @@ MODEL.compile(
 )
 #Train the Model and save it
 
-MODEL.fit(train_images, train_labels, epochs=10)
+MODEL.fit(train_images, train_labels, epochs=30)
 MODEL.save("MODEL.keras")
+
 
