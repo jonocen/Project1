@@ -1,2 +1,3 @@
 # Project1
-Just an normal project
+
+A MNIST dataset Neuronal Network, for analyzing Handwritten numbers
